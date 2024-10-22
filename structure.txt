@@ -1,0 +1,18 @@
+Diplomova-prace/
+│
+├── data/                      # Složka pro uložená data (CSV, Excel, etc.)
+│   ├── all_weather.csv         # All-Weather portfolio data
+│   ├── s&p500.csv               # S&P 500 data
+│   └── bonds.csv               # Data o dluhopisech
+│
+├── notebooks/                  # Jupyter Notebooky pro zpracování a analýzu
+│   ├── analysis.ipynb
+│   └── backtest.ipynb
+│
+├── src/                        # Zdrojové Python skripty
+│   ├── data_loader.py          # Načítání dat ze zdrojů
+│   ├── backtest.py             # Kód pro backtesting portfolia
+│   └── visualization.py        # Vykreslení grafů
+│
+├── requirements.txt            # Seznam Python knihoven
+└── README.md                   # Popis projektu
